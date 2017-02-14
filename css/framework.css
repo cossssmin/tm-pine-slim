@@ -25,13 +25,13 @@ img {-ms-interpolation-mode: bicubic; border: 0; display: block; height: auto; l
 table {border-collapse: collapse;}
 
 /* Base Layout*/
-.row {width: 700px;}
+.row {width: 640px;}
 .row .row {width: 100%;}
 
 th.menu-item {display: inline;}
 
 /* Responsive Styles */
-@media only screen and (max-width: 699px) {
+@media only screen and (max-width: 639px) {
 
   .row {width: 90% !important;}
 	.row .row {width: 100% !important;}
@@ -42,34 +42,26 @@ th.menu-item {display: inline;}
     display: inline-block !important;
     width: 100% !important;
   }
-	.mobile-1  {max-width: 8.33333%;}
-	.mobile-2  {max-width: 16.66667%;}
-	.mobile-3  {max-width: 25%;}
-	.mobile-4  {max-width: 33.33333%;}
-	.mobile-5  {max-width: 41.66667%;}
-	.mobile-6  {max-width: 50%;}
-	.mobile-7  {max-width: 58.33333%;}
-	.mobile-8  {max-width: 66.66667%;}
-	.mobile-9  {max-width: 75%;}
-	.mobile-10 {max-width: 83.33333%;}
-	.mobile-11 {max-width: 91.66667%;}
-	.mobile-12 {
-	  padding-right: 30px !important;
-	  padding-left: 30px !important;
+	.mobile-one-sixth {max-width: 16.666667%;}
+	.mobile-one-quarter {max-width: 25%;}
+	.mobile-one-third {max-width: 33.333333%;}
+	.mobile-half {max-width: 50%;}
+	.mobile-two-thirds {max-width: 66.666667%;}
+	.mobile-three-quarters {max-width: 75%;}
+	.mobile-five-sixths {max-width: 83.333333%;}
+	.mobile-full {
+		padding-right: 30px !important;
+		padding-left: 30px !important;
 	}
 
-	/* Column Offsets */
-	.mobile-offset-1  {margin-left: 8.33333% !important;}
-	.mobile-offset-2  {margin-left: 16.66667% !important;}
-	.mobile-offset-3  {margin-left: 25% !important;}
-	.mobile-offset-4  {margin-left: 33.33333% !important;}
-	.mobile-offset-5  {margin-left: 41.66667% !important;}
-	.mobile-offset-6  {margin-left: 50% !important;}
-	.mobile-offset-7  {margin-left: 58.33333% !important;}
-	.mobile-offset-8  {margin-left: 66.66667% !important;}
-	.mobile-offset-9  {margin-left: 75% !important;}
-	.mobile-offset-10 {margin-left: 83.33333% !important;}
-	.mobile-offset-11 {margin-left: 91.66667% !important;}
+	/* Column Offsets*/
+	.mobile-offset-one-sixth {margin-left: 16.666667% !important;}
+	.mobile-offset-one-quarter {margin-left: 25% !important;}
+	.mobile-offset-one-third {margin-left: 33.333333% !important;}
+	.mobile-offset-half {margin-left: 50% !important;}
+	.mobile-offset-two-thirds {margin-left: 66.666667% !important;}
+	.mobile-offset-three-quarters {margin-left: 75% !important;}
+	.mobile-offset-five-sixths {margin-left: 83.333333% !important;}
 
   /* Column nesting */
   .has-columns {
