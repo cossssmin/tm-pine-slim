@@ -79,7 +79,7 @@ th.menu-item {display: inline;}
   .has-bg-image {background-size: cover !important;}
 
 	/* Alignment */
-	.mobile-center {
+	.mobile-centered {
 	  display: table !important;
 	  float: none;
     margin-left: auto !important;
