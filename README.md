@@ -2,9 +2,6 @@
 
 A lighter version of the [Pine Email Framework](https://thememountain.github.io/pine/), by  [ThemeMountain](http://thememountain.com/).
 
-There is no build system. Just a grid, some CSS, a few design patterns, and some awesome components.
-Simply copy HTML and stack grid elements in a default layout file, then add your own content inside them.
-
 ## Features
 
 - Compatible with major email clients, thoroughly tested
