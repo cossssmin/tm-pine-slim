@@ -1,3 +1,5 @@
+This fork is no longer supported. Please consider using [Acorn](https://github.com/ThemeMountain/acorn) instead.
+
 # Pine Slim - Email Framework
 
 A lighter version of the [Pine Email Framework](https://thememountain.github.io/pine/), by  [ThemeMountain](http://thememountain.com/).
